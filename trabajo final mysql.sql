@@ -1,0 +1,6 @@
+buscar DELIMITER $
+
+CREATE PROCEDURE buscar ()
+BEGIN
+SELECT * FROM emfermos;
+END $
